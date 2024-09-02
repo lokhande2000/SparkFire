@@ -1,11 +1,11 @@
 // src/pages/Home.js
 import { Box, VStack } from "@chakra-ui/react";
-import HeroSection from "../src/components/HeroSection";
-import Navbar from "../src/components/Navabar";
-import AboutSection from "../src/components/AboutSection";
-import ProductCard from "../src/components/ProductCard";
-import Footer from "../src/components/Footer";
-import HeadingName from "../src/components/HeadingName";
+import HeroSection from "../components/HeroSection";
+import Navbar from "../components/Navabar";
+import AboutSection from "../components/AboutSection";
+import ProductCard from "../components/ProductCard";
+import Footer from "../components/Footer";
+import HeadingName from "../components/HeadingName";
 
 const Home = () => (
   <VStack spacing={5} w="full">
